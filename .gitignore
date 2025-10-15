@@ -1,0 +1,22 @@
+# --- Python cache and junk ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Environments & secrets ---
+.venv/
+.env
+
+# --- Data ---
+data/raw/
+data/interim/
+data/external/
+
+# --- IDE / OS files ---
+.vscode/
+.DS_Store
+
+# --- Model artifacts & reports ---
+models/
+reports/
+*.log
